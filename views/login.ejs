@@ -1,0 +1,21 @@
+<%- include('./partials/header.ejs') %>
+
+<div class="container">
+
+    <div class="text-center">
+        <img class="login_heading" src="/image/logo.png" alt="">
+        <h3>Login & Go to Admin Panel</h3>
+    </div>
+
+    <form action="/login" method="post">
+        <label for="" class="mt-4">Email</label>
+        <input type="email" placeholder="Enter your email" class="form-control" name="email">
+
+        <label for="" class="mt-4">Password</label>
+        <input type="password" placeholder="Enter your password" class="form-control" name="password">
+
+        <button type="submit" class="btn btn-danger mt-5">Login for Admin Panel</button>
+    </form>
+</div>
+
+<%- include('./partials/footer.ejs') %>

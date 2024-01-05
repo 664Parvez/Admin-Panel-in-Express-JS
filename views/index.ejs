@@ -1,0 +1,160 @@
+<%- include('./partials/header.ejs') %>
+
+<div id="main_div">
+    <%- include('./partials/topbar.ejs') %>
+    <div id="main_div_content">
+
+
+        <div class="heading">
+            <h2 class="mb-0">Quick Statistics</h2>
+        </div>
+
+        <div class="mt-4">
+            <h4 class="mb-0">Welcome back <b>Jason Tailer</b></h4>
+            <p>Track your sales activity, leads and deals here.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="d-flex align-items-center justify-content-between" id="desh_first_section">
+                    <div class="desh_first_section_icon">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                    </div>
+                    <div class="dash_section1">
+                        <p class="mb-0">Open Payments</p>
+                        <h2>$8348</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="d-flex align-items-center justify-content-between" id="desh_first_section">
+                    <div class="desh_first_section_icon">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                    <div class="dash_section1">
+                        <p class="mb-0">New Users</p>
+                        <h2>258</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="d-flex align-items-center justify-content-between" id="desh_first_section">
+                    <div class="desh_first_section_icon">
+                        <i class="fa-solid fa-chart-simple"></i>
+                    </div>
+                    <div class="dash_section1">
+                        <p class="mb-0">Avg Revenue</p>
+                        <h2>$6585</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="d-flex align-items-center justify-content-between" id="desh_first_section">
+                    <div class="desh_first_section_icon">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                    </div>
+                    <div class="dash_section1">
+                        <p class="mb-0">Total Projects</p>
+                        <h2>73</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div id="revenue_chart_div">
+                        <h6 class="mb-4"><b>Revenue Analytics</b></h6>
+                        <div id="revenue_chart"></div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div id="project_chart_div">
+                        <h6 class="mb-4"><b>Project Status</b></h6>
+                        <div id="project_chart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="profit_earned_div" class="mt-4">
+            <h6 class="mb-4"><b>Profit Earned</b></h6>
+            <div id="profit_chart"></div>
+        </div>
+
+        <div id="details_statistics_div" class="mt-4">
+            <h6><b>Payments</b></h6>
+
+            <div class="table-responsive">
+                <table class="table table-bordered mt-4">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Product</th>
+                            <th>Agents</th>
+                            <th>Sales</th>
+                            <th>Earning</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <th>Envato</th>
+                            <th>Manoj Kumar</th>
+                            <th>390</th>
+                            <th>$400</th>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <th>Themeforest</th>
+                            <th>John Deo</th>
+                            <th>70</th>
+                            <th>$550</th>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <th>Videohive</th>
+                            <th>Golam Rabbi</th>
+                            <th>445</th>
+                            <th>$1200</th>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <th>Codecanyon</th>
+                            <th>Yokahona</th>
+                            <th>150</th>
+                            <th>$398</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-5">
+                <div id="round_chart_section" class="mt-4">
+                    <h6 class="mb-4"><b>Leads By Source</b></h6>
+                    <div class="text-center">
+                        <div id="round_chart"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div id="clients_cart_div" class="mt-4">
+                    <h6><b>Clients year by year</b></h6>
+                    <div id="client_chart"></div>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+
+    <%- include('./partials/bottom_bar.ejs') %>
+</div>
+
+<%- include('./partials/sidebar.ejs') %>
+
+<%- include('./partials/footer.ejs') %>

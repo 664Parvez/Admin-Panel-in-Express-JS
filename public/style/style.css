@@ -1,0 +1,69 @@
+
+.heading{
+    border-radius: 5px;
+    padding: 5px 20px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 6px #e0e0e0;
+}
+.heading h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#desh_first_section{
+    background: #ffffff;
+    box-shadow: 1px 1px 6px #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+}
+.desh_first_section_icon {
+    font-size: 30px;
+}
+.dash_section1 h2{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#revenue_chart_div{
+    background: #ffffff;
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+#round_chart_section {
+    background: #ffffff;
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+#round_chart {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+#clients_cart_div {
+    background: #ffffff;
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+
+#project_chart_div {
+    background: #ffffff;
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+
+#details_statistics_div {
+    background: #ffffff;
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+
+#profit_earned_div {
+    background: #ffffff;
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+
+h6{
+    color: #1b0d31;
+    font-size: 18px;
+}

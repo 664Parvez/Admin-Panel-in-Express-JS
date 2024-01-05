@@ -1,0 +1,10 @@
+#copywrite {
+    background: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 20%);
+    padding: 10px 0;
+}
+#copywrite p{
+    margin-bottom: 0;
+}
